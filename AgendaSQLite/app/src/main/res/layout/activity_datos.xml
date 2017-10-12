@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.osbete.contactossqlite.activity_datos">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ID:"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre:"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtCorreo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="e-mail:"
+            android:inputType="textEmailAddress"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtTwitter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Twitter:"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtPhone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefono:"
+            android:inputType="number"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/txtFechaNac"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nacimiento:DD/MM/AA"
+            android:inputType="date"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnAgregar"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Agregar"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnModificar"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Modificar"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnBorrar"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Borrar"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
